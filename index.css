@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background: rgb(251, 143, 19);
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    font-weight: 600;
+
+}
+
+nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 8%;
+    z-index: 1;
+    position: relative;
+
+}
+
+button {
+    color: white;
+    border: 1px solid white;
+    background: none;
+    padding: 0.7rem 2.3rem;
+}
+
+nav h3 {
+    font-size: 2rem;
+}
+
+.red {
+    background: red;
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.about {
+    position: relative;
+    padding: 3% 8%;
+    z-index: 2;
+    width: 40%;
+    color: white;
+    align-self: center;
+}
+
+.about p {
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+}
+
+.about h1 {
+    font-size: 3.5rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about button {
+    background: red;
+    border: none;
+    font-weight: bolder;
+    padding: 1rem 3rem;
+    border-radius: 3px;
+    margin-bottom: 2rem;
+}
+
+div .fa-brands {
+    color: rgb(215, 5, 5);
+    padding: 0.8rem;
+    background: white;
+    border-radius: 14px;
+    margin-right: 1rem ;
+    box-shadow: 2px 2px 20px rgb(58, 58, 58);
+    font-size: 1.2rem;
+}
+
+.first-leafe {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    left: 40%;
+}
+
+.second-leafe {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    transform: rotate(-50deg);
+    width: 230px;
+}
+
+.third-leafe {
+    position: absolute;
+    top: 570px;
+    right: 220px;
+    width: 200px;
+    transform: rotate(180deg);
+}
+
+.fourth-leafe {
+    position: absolute;
+    top: 50px;
+    right: 400px;
+    transform: rotate(-30deg);
+    width: 170px;
+}
+
+.fifth-leafe {
+    position: absolute;
+    width: 180px;
+    top: 400px;
+    right: 700px;
+    transform: rotate(250deg);
+}
+
+.sixth-leafe {
+    position: absolute;
+    top: 300px;
+    width: 200px;
+    right: 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger {
+    z-index: 1;
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    margin-right: 300px;
+
+}
+
+.burger img {
+    width: 400px;
+    margin-bottom: -40px;
+}
+
+.first-burger {
+    background: red;
+    height: 100vh;
+    width: 100%;
+    padding: 2% 5%;
+    color: white;
+    
+}
+
+
+.first-burger h3 {
+    font-size: 2rem;
+
+}
+
+.lines {
+    transform: rotate(90deg);
+    position: absolute;
+}
+
+.about-box {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-box p {
+    font-size: 0.7rem;
+}
+
+.about-box h3 {
+    font-size: 2rem;
+}
+
+.line {
+    width: 200px;
+    height: 2px;
+    background: white;
+    margin-top: 1rem;
+}
+
+.about-top-bun {
+    margin-left: 300px;
+    margin-top: 80px;
+}
+.about-tomato h3 {
+    text-align: right;
+}
+
+.about-tomato {
+    margin-left: 870px;
+    margin-top: 58px;
+}
+
+.about-cheese {
+    margin-left: 300px;
+    margin-top: -10px;
+}
+
+.about-patty h3 {
+    text-align: right;
+}
+
+.about-patty {
+    margin-left: 890px;
+   margin-top: -10px;
+}
+.about-bottom-bun {
+    margin-left: 300px;
+}
